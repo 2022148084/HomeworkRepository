@@ -1,0 +1,26 @@
+h1 {
+    font-size: 220%;
+    font-family: cursive;
+    text-align: center;
+    padding: 10px;
+    border: solid black 2px;
+    margin: 40px;
+  
+}
+
+.green {
+    background-color: greenyellow;
+}
+
+.red {
+    background-color: red;
+}
+
+a {
+    color: blue;
+}
+
+.asdf {
+    width: 63px;
+    height: 24px;
+}
