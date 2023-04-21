@@ -1,0 +1,131 @@
+h1 {
+    font-size: 220%;
+    font-family: cursive;
+    text-align: center;
+    padding: 10px;
+    border: solid black 2px;
+    margin: 40px;
+  
+}
+
+.green {
+    background-color: greenyellow;
+}
+
+.red {
+    background-color: red;
+}
+
+a {
+    color: blue;
+}
+
+.asdf {
+    width: 63px;
+    height: 24px;
+}
+
+
+.headline {
+    text-align: center;
+    animation-duration: 2s;
+    animation-name: slide;
+}
+
+.nevigation {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.nevigation > div {
+    margin: 10px;
+    padding: 20px;
+}
+
+.mainpage {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.batch {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.batch > div {
+    margin: 10px;
+    border: solid black 2px;
+}
+
+img {
+    width: 100px;
+    height: 110px
+}
+
+/*
+#subtitle {
+    border-bottom: solid black 2px;
+}
+*/
+
+.introduce {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.extra {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.extra > div {
+    margin: 10px;
+}
+
+/*
+.border {
+    border-right: solid black 2px;
+}
+*/
+
+@keyframes slide {
+    from{
+        margin-left: 80%;
+    }
+    to{ 
+        text-align: center;
+    }
+}   
+
+@media (max-width: 400px) {
+    body{
+        
+    }
+}
+
+@media (min-width: 401px) and (max-width: 800px) {
+    body{
+        
+    }
+}
+
+@media (min-width: 801px) {
+    body{
+        
+    }
+}
+
+
